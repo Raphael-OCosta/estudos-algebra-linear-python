@@ -1,0 +1,172 @@
+{
+  "titulo": "Álgebra Linear com Python",
+  "subtitulo": "Aprenda na prática os principais conceitos",
+  "autor": "Rafael F. V. C. Santos",
+  "repo": "estudos-algebra-linear-python",
+  "linguagem": "python",
+  "preparacao": "import numpy as np\nimport matplotlib.pyplot as plt\nnp.set_printoptions(precision=3, suppress=True)  # números mais legíveis\nprint(\"Pronto. NumPy\", np.__version__)",
+  "capitulos": {
+    "1": {
+      "titulo": "Introdução",
+      "pag": 8,
+      "secoes": []
+    },
+    "2": {
+      "titulo": "Linguagem de programação Python",
+      "pag": 14,
+      "secoes": [
+        [
+          2,
+          "2.1 Baixando e instalando o Python",
+          16
+        ],
+        [
+          2,
+          "2.2 Ambiente de desenvolvimento (IDE)",
+          19
+        ],
+        [
+          2,
+          "2.3 Conhecendo o IDLE Python",
+          20
+        ],
+        [
+          2,
+          "2.4 Principais bibliotecas Python",
+          23
+        ],
+        [
+          2,
+          "2.5 Instalando o NumPy",
+          25
+        ],
+        [
+          2,
+          "2.6 Funcionalidades da linguagem Python",
+          27
+        ]
+      ]
+    },
+    "3": {
+      "titulo": "Conceitos básicos da álgebra linear",
+      "pag": 34,
+      "secoes": [
+        [
+          2,
+          "3.1 Escalares, vetores e matrizes",
+          35
+        ],
+        [
+          2,
+          "3.2 Tipos de matrizes",
+          40
+        ],
+        [
+          2,
+          "3.3 Operações com vetores e escalares",
+          47
+        ],
+        [
+          2,
+          "3.4 Operações entre vetores",
+          48
+        ],
+        [
+          2,
+          "3.5 Operações entre matrizes e escalares",
+          49
+        ],
+        [
+          2,
+          "3.6 Operações entre matrizes e vetores",
+          50
+        ],
+        [
+          2,
+          "3.7 Operações entre matrizes",
+          52
+        ],
+        [
+          2,
+          "3.8 Inversa de uma matriz",
+          57
+        ],
+        [
+          2,
+          "3.9 Manipulando elementos da matriz",
+          60
+        ]
+      ]
+    },
+    "4": {
+      "titulo": "Sistemas de equações lineares",
+      "pag": 63,
+      "secoes": [
+        [
+          2,
+          "4 Sistemas de equações lineares",
+          63
+        ]
+      ]
+    },
+    "5": {
+      "titulo": "Determinantes de matrizes",
+      "pag": 69,
+      "secoes": [
+        [
+          2,
+          "5.1 Calculando o determinante",
+          72
+        ]
+      ]
+    },
+    "6": {
+      "titulo": "Autovalores e autovetores",
+      "pag": 77,
+      "secoes": [
+        [
+          2,
+          "6.1 Transformação linear",
+          78
+        ],
+        [
+          2,
+          "6.2 Autovalores e autovetores de uma matriz",
+          79
+        ]
+      ]
+    },
+    "7": {
+      "titulo": "Aplicações",
+      "pag": 85,
+      "secoes": [
+        [
+          2,
+          "7.1 Exemplo 1 - Matrizes e estatísticas",
+          86
+        ],
+        [
+          2,
+          "7.2 Exemplo 2 - Matrizes e criptografia",
+          89
+        ],
+        [
+          2,
+          "7.3 Exemplo 3 - Sistemas lineares",
+          93
+        ],
+        [
+          2,
+          "7.4 Exemplo 4 - Rankeamento de busca em sites",
+          97
+        ],
+        [
+          2,
+          "7.5 Exemplo 5 - Sequência de Fibonacci",
+          100
+        ]
+      ]
+    }
+  },
+  "paginas": 106
+}
