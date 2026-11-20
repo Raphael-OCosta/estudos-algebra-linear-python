@@ -1,4 +1,4 @@
-# 📐 Estudos — *Álgebra Linear com Python* (Rafael F. V. C. Santos)
+# Estudos — *Álgebra Linear com Python* (Rafael F. V. C. Santos)
 
 > **A melhor forma de estudar um livro técnico é ler e praticar ao mesmo tempo.**
 > Leia uma seção, feche o livro e escreva o código com as próprias mãos. Só depois confira o gabarito.
@@ -6,17 +6,17 @@
 Este repositório registra meu estudo do livro *Álgebra Linear com Python: aprenda na prática os principais conceitos*.
 Cada capítulo virou um caderno Jupyter. Cada seção aponta para a página do PDF e traz um exercício original para fixar o conteúdo.
 
-## 🔁 O método
+## O método
 
 | Passo | O que fazer | Onde |
 |---|---|---|
 | 1. Ler | Ler a seção indicada | PDF do livro (página no caderno) |
-| 2. Praticar | Escrever a solução do 🧪 exercício **sem olhar a resposta** | `praticar/capXX_*.ipynb` |
+| 2. Praticar | Escrever a solução do exercício **sem olhar a resposta** | `praticar/capXX_*.ipynb` |
 | 3. Conferir | Comparar com o gabarito e entender a diferença | `resolvidos/capXX_*.ipynb` |
-| 4. Resumir | Explicar com as próprias palavras nas células 📝 | `praticar/` |
+| 4. Resumir | Explicar com as próprias palavras nas células | `praticar/` |
 | 5. Registrar | Commit + push, para o progresso ficar visível | GitHub |
 
-## 📚 Conteúdo
+## Conteúdo
 
 | Cap. | Tema | Exercícios |
 |---|---|---|
@@ -30,7 +30,7 @@ Cada capítulo virou um caderno Jupyter. Cada seção aponta para a página do P
 
 **Total: 33 exercícios.** Todos foram criados para este estudo e o gabarito é testado automaticamente.
 
-## 🛠️ Melhorias em relação ao livro
+## Melhorias em relação ao livro
 
 - O livro usa o IDLE. Aqui uso **VS Code + Jupyter**: cada seção vira uma célula que dá para rodar, e as anotações ficam ao lado do código.
 - **NumPy 2.x** e Python 3.12. O gabarito roda sem avisos nas versões atuais.
@@ -38,7 +38,7 @@ Cada capítulo virou um caderno Jupyter. Cada seção aponta para a página do P
 - Exercícios com conferência embutida (`np.allclose`, A·v = λ·v, A = P·D·P⁻¹), para eu ver se acertei e não só se o código rodou.
 - O gabarito inteiro é executado por `ferramentas/testar_cadernos.py`.
 
-## ▶️ Como usar
+## Como usar
 
 ```powershell
 # Python 3.12 (python.org) instalado
@@ -52,7 +52,7 @@ python -m venv .venv
 Abra a pasta no VS Code, escolha o kernel `.venv` e comece por `praticar/cap01_introducao.ipynb`.
 O [Guia de Estudos (PDF)](Guia_de_Estudos.pdf) explica o passo a passo para iniciantes.
 
-## ⚖️ Direitos autorais
+## Direitos autorais
 
 O livro **não** está neste repositório. Para estudar, use a sua própria cópia.
 Os exercícios, os cadernos, os scripts e o guia são autorais e estão sob licença [MIT](LICENSE).
